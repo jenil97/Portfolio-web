@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import PDF from '../assets/Resume.pdf'
@@ -16,11 +17,11 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300">
       <div>
-        <p className="text-5xl flex cursor-pointer ml-4">Jenil</p>
+        <p className="text-5xl flex cursor-pointer ml-4"><AiOutlineLeft size={60}/> j <AiOutlineRight size={60}/> </p>
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex space-x-7">
         <li className="hover:text-gray-200 hover:font-semibold">Home</li>
         <li className="hover:text-gray-200 hover:font-semibold">About</li>
         <li className="hover:text-gray-200 hover:font-semibold">Skills</li>
