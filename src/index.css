@@ -18,13 +18,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 220px;
 }
 
 .content-div:hover {
     background-image: linear-gradient(
         to right,
-        rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)   
+        #D9AFD9,
+        #97D9E1   
     )!important;
 }
