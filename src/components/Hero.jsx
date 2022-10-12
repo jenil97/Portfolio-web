@@ -13,7 +13,7 @@ const Home = () => {
           A Frontend Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] font-medium">
-          I’m a Frontend developer specializing in building exceptional digital
+          I’m a developer specializing in building exceptional digital
           experiences. <br /> Currently, I’m focused on building responsive
           Frontend web applications.
         </p>
