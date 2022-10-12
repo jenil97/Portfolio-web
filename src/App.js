@@ -1,4 +1,5 @@
 import About from "./components/About";
+import BackToTop from "./components/BackToTop";
 import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
+      <BackToTop />
     </>
   );
 }
