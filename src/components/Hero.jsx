@@ -2,6 +2,13 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
@@ -13,13 +20,16 @@ const Home = () => {
           A Frontend Web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] font-medium">
-          I’m a developer specializing in building exceptional digital
-          experiences. <br /> Currently, I’m focused on building responsive
-          Frontend web applications.
+          I’m a self-taught developer specializing in building exceptional
+          digital experiences. <br /> Currently, I’m focused on building
+          responsive Frontend web applications.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-violet-700 hover:border-violet-700">
-            View Work
+          <button
+            onClick={scrollToBottom}
+            className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center hover:bg-violet-700 hover:border-violet-700"
+          >
+            Get In Touch
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
