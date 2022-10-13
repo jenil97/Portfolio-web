@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300">
       <div>
-        <p className="text-5xl flex cursor-pointer ml-4">
-          <AiOutlineLeft size={60} /> j <AiOutlineRight size={60} />{" "}
+        <p className="text-3xl flex cursor-pointer ml-4 md:text-[45px]">
+          <AiOutlineLeft size={35} className='md:w-[55px]'/> j <AiOutlineRight size={35} className='md:w-[55px]' />{" "}
         </p>
       </div>
 
