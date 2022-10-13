@@ -20,7 +20,7 @@ const BackToTop = () => {
     show && (
       <button
         onClick={() => scrollToTop()}
-        className="bg-violet-600 w-16 h-16 rounded-full fixed right-5 bottom-[480px]  md:right-[100px] md:bottom-[170px] flex justify-center items-center transition-all text-white hover:scale-110 duration-500"
+        className="bg-violet-600 w-16 h-16 rounded-full fixed right-5 bottom-[350px]  md:right-[100px] md:bottom-[170px] flex justify-center items-center transition-all text-white hover:scale-110 duration-500"
       >
         <BiUpArrowAlt className="w-8 h-8" />
       </button>
