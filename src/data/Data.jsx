@@ -2,6 +2,7 @@ import Netflix from "../assets/work/netflix.jpg";
 import Bank from "../assets/work/bank.jpg";
 import Cloud from "../assets/work/cloud.jpg";
 import Data from "../assets/work/data.jpg";
+import Food from "../assets/work/food.jpg";
 
 export const data = [
   {
@@ -20,10 +21,10 @@ export const data = [
   },
   {
     id: 3,
-    name: "Cloud-Web",
-    image: Cloud,
-    github: "https://github.com/jenil-patel97/cloud-web",
-    live: "https://cloud-web-eight.vercel.app/",
+    name: "Restaurant-Web",
+    image: Food,
+    github: "https://github.com/jenil-patel97/Gericht-web",
+    live: "https://gericht-web.vercel.app/",
   },
   {
     id: 4,
@@ -31,5 +32,12 @@ export const data = [
     image: Data,
     github: "https://github.com/jenil-patel97/data-finance-web",
     live: "https://data-finance-web.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Cloud-Web",
+    image: Cloud,
+    github: "https://github.com/jenil-patel97/cloud-web",
+    live: "https://cloud-web-eight.vercel.app/",
   },
 ];
