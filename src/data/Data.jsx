@@ -3,6 +3,7 @@ import Bank from "../assets/work/bank.jpg";
 import Cloud from "../assets/work/cloud.jpg";
 import Data from "../assets/work/data.jpg";
 import Food from "../assets/work/food.jpg";
+import Apple from "../assets/work/Apple.jpg";
 
 export const data = [
   {
@@ -35,6 +36,13 @@ export const data = [
   },
   {
     id: 5,
+    name: "Apple-clone",
+    image: Apple,
+    github: "https://github.com/jenil-patel97/totalitycorp-frontend-challenge",
+    live: "https://totalitycorp-frontend-challenge-self.vercel.app/",
+  },
+  {
+    id: 6,
     name: "Cloud-Web",
     image: Cloud,
     github: "https://github.com/jenil-patel97/cloud-web",
