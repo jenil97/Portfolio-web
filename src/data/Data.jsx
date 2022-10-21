@@ -1,7 +1,7 @@
 import Netflix from "../assets/work/netflix.jpg";
 import Bank from "../assets/work/bank.jpg";
 import Cloud from "../assets/work/cloud.jpg";
-import Data from "../assets/work/data.jpg";
+import Data from "../assets/work/Data.jpg";
 import Food from "../assets/work/food.jpg";
 import Apple from "../assets/work/Apple.jpg";
 
