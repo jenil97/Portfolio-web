@@ -11,7 +11,10 @@ import NextJS from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-[110vh] md:h-[120vh] bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-[130vh] md:h-[110vh] bg-[#0a192f] text-gray-300"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -20,41 +23,44 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 cursor-pointer">
+        <div className="w-full grid grid-cols-2 mt-4 sm:grid-cols-4 gap-8 text-center py-8 cursor-pointer">
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={HTML} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={HTML} alt="html" />
             <p className="my-4 text-black font-bold">HTML</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={CSS} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={CSS} alt="html" />
             <p className="my-4 text-black font-bold">CSS</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={Java} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={Java} alt="html" />
             <p className="my-4 text-black font-bold">Javascript</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={ReactJs} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={ReactJs} alt="html" />
             <p className="my-4 text-black font-bold">ReactJs</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-[110px] mx-auto mt-10' src={Bootstrap} alt="html" />
+            <img
+              className="w-[110px] mx-auto mt-10"
+              src={Bootstrap}
+              alt="html"
+            />
             <p className="my-4 text-black font-bold">Bootstrap</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={Tailwind} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={Tailwind} alt="html" />
             <p className="my-4 text-black font-bold">TailwindCSS</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={Typscript} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={Typscript} alt="html" />
             <p className="my-4 text-black font-bold">Typscript</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className='w-20 mx-auto mt-10' src={NextJS} alt="html" />
+            <img className="w-20 mx-auto mt-10" src={NextJS} alt="html" />
             <p className="my-4 text-black font-bold">NextJS</p>
           </div>
         </div>
-
       </div>
     </div>
   );
