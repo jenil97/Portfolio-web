@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import PDF from "../assets/Resume.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -14,7 +12,8 @@ const Navbar = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300">
       <div>
         <p className="text-3xl flex cursor-pointer ml-4 md:text-[45px]">
-          <AiOutlineLeft size={35} className='md:w-[55px]'/> j <AiOutlineRight size={35} className='md:w-[55px]' />{" "}
+          <AiOutlineLeft size={35} className="md:w-[55px]" /> j{" "}
+          <AiOutlineRight size={35} className="md:w-[55px]" />{" "}
         </p>
       </div>
 
@@ -61,22 +60,22 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}  to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
@@ -120,17 +119,6 @@ const Navbar = () => {
               rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="flex justify-between items-center w-full font-semibold text-gray-300"
-              href={PDF}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

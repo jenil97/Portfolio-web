@@ -6,7 +6,7 @@ import Java from "../assets/javascript.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import Tailwind from "../assets/tailwind.png";
 import ReactJs from "../assets/react.png";
-import Typscript from "../assets/ts.png";
+import Node from "../assets/node-js.svg";
 import NextJS from "../assets/nextjs.png";
 
 const Skills = () => {
@@ -53,8 +53,8 @@ const Skills = () => {
             <p className="my-4 text-black font-bold">TailwindCSS</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto mt-10" src={Typscript} alt="html" />
-            <p className="my-4 text-black font-bold">Typscript</p>
+            <img className="w-20 mx-auto mt-10" src={Node} alt="html" />
+            <p className="my-4 text-black font-bold">NodeJS</p>
           </div>
           <div className="shadow-md bg-slate-300 rounded-xl shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto mt-10" src={NextJS} alt="html" />
